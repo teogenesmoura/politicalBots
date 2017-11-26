@@ -7,7 +7,7 @@ const expressValidator = require('express-validator');
 
 const options = { server: { socketOptions: { keepAlive: 300000, connectTimeoutMS: 30000 } },
                   replset: { socketOptions: { keepAlive: 300000, connectTimeoutMS : 30000 } } }; 
-let mongodbUri = 'mongodb://localhost:27017/bot';
+let mongodbUri = 'mongodb://bot:bot@ds121696.mlab.com:21696/politicalbot';
 mongoose.connect(mongodbUri, options);
 let conn = mongoose.connection;             
 conn.on('error', console.error.bind(console, 'connection error:')); 
