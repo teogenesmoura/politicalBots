@@ -33,7 +33,9 @@ sudo nodemon index.js
 ## API endpoints
 
 /createBot
+
 @params: name, party, url, repo, developer, additionalDetails
+
 @returns: "Bot created sucessfully" if sucessful, "Bot not created sucessfully" otherwise
 
 In order to create bots, open up your terminal and input the following:
@@ -43,7 +45,9 @@ curl --data "name=testBot&party=YOUR_PARTY_NAME&url=BOT_URL&repo=REPO_URL&develo
 ```
 
 /getBot/:name
+
 @params: name
+
 @returns: "bot ' + botName + 'was found on the database:' + bot"
 
 In order to retrieve a bot, input the following to your terminal:
