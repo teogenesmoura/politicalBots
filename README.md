@@ -1,6 +1,6 @@
 # PoliticalBot
 
-API implementation for the Bot described by @yaso in the following text:
+API implementation for registering politically inclined bots as described by @yaso in the following text:
 https://jota.info/artigos/um-lugar-para-os-robos-nas-eleicoes-20112017
 
 ## Motivation
